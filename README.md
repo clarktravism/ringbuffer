@@ -1,5 +1,6 @@
-# Ringbuffer
+# RingBuffer
 ![Coverage](https://img.shields.io/badge/Coverage-100.0%25-brightgreen)
+
 A simple ring buffer implementation in go using generics.
 The ring buffer will reuse elements that have been already read, or will auto-expand when the length of unread elements exceeds the buffer.
 
